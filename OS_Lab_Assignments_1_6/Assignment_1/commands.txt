@@ -1,0 +1,107 @@
+ASSIGNMENT 1 QUICK COMMANDS
+
+DIRECTORY
+mkdir test
+cd test
+pwd
+ls
+tree
+cd ..
+rmdir test
+
+FILE
+touch a.txt
+cat a.txt
+head a.txt
+tail a.txt
+cp a.txt b.txt
+mv b.txt c.txt
+rm c.txt
+chmod 755 a.txt
+chown user a.txt
+chgrp group a.txt
+ln a.txt link.txt
+grep "hello" a.txt
+find . -name "a.txt"
+cmp a.txt b.txt
+diff a.txt b.txt
+less a.txt
+more a.txt
+dd if=a.txt of=b.txt
+shred a.txt
+
+PROCESS
+ps
+top
+kill PID
+nice -n 5 command
+touch file
+
+NETWORK
+ifconfig
+ip addr
+ping google.com
+traceroute google.com
+curl https://example.com
+wget https://example.com/file
+nslookup google.com
+netstat
+tcpdump
+nmap
+iptables
+nft
+ufw
+
+SYSTEM
+sudo
+apt-get
+passwd
+whoami
+whereis gcc
+ssh user@ip
+sftp user@ip
+uname -a
+systemctl
+service
+
+DISK
+du -h
+df -h
+fdisk -l
+sfdisk
+
+MISC
+echo hello
+clear
+tar -cvf file.tar folder
+tar -xvf file.tar
+which gcc
+mount
+man ls
+
+PIPE
+ls | grep txt
+
+REDIRECT
+ls > output.txt
+ls >> output.txt
+
+PROC
+ls /proc
+cat /proc/cpuinfo
+cat /proc/meminfo
+cat /proc/version
+cat /proc/uptime
+cat /proc/loadavg
+cat /proc/stat
+cat /proc/PID/status
+cat /proc/PID/maps
+
+GCC / G++
+gcc file.c
+gcc file.c -o out
+g++ file.cpp -o out
+gcc -Wall file.c
+gcc -g file.c
+gcc -O2 file.c
+./out

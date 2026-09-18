@@ -1,0 +1,11 @@
+Check ASLR:
+cat /proc/sys/kernel/randomize_va_space
+
+Disable:
+sudo sysctl -w kernel.randomize_va_space=0
+
+Conservative:
+sudo sysctl -w kernel.randomize_va_space=1
+
+Full:
+sudo sysctl -w kernel.randomize_va_space=2
